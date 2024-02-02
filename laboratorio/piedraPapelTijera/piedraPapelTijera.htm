@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>PrimerParcial</title>
+<link rel="stylesheet" href="piedraPapelTijera.css">
+<script type = "text/javascript" src="piedraPapelTijera.js"></script>
+</head>
+<body>
+ <header><h1> <span id="idPiedra">Piedra</span>, <span id="idPapel">papel</span> o <span id="idTijera">tijera</span></h1> </header>
+	
+		<div id="contenedorPrincipal">
+			<div id="contenedorJugador">
+				<div id="contenedorParteArriba">
+					<p class="palabra1">Seleccione su arma:</p>
+					<select id="idEleccion" name="eleccion" class="boton">
+						<option value="0" selected>piedra </option>
+						<option value="1" >tijera </option>
+						<option value="2" >papel </option>
+					</select>
+				</div>	
+				<div id="contenedorParteMedia">
+					<p class="palabra1">Toque el boton</p>
+					<input name="jugar" type="button" id="idjugar" class="boton" value="jugar" onclick="fjugar();" >
+					<p class="palabra1">para iniciar.</p>
+				</div>
+				<div id="contenedorParteBaja">
+					<p class="palabra1">Toque el boton</p>
+					<input name="reiniciarValores" type="button" id="idReiniciarValores" class="boton" value="reiniciar valores" onclick="freiniciarValores();" >
+					<p class="palabra1"> por si alguien ya gano y quiere volver a jugar</P>
+				</div>
+				<div id="contenedorParteUltima">
+					<p class="palabra1">Toque el boton</p>
+					<input name="rendirse" type="button" id="idRendirse" class="boton" value="rendirse" onclick="frendirse();" >
+					<p class="palabra1"> por si alguien ya gano y quiere volver a jugar</P>
+				</div>
+			</div>
+			
+			<div id="contenedorDer">
+			
+				<div id="contenedorComputadora">
+				<p>la maquina eligio:<span id="eleccionMaquina"></span></p>
+				</div>
+			
+				<div id="contenedorResultado">
+				<p>manos ganadas por jugador:<span id="manosJugador"></span></p>
+				<p>manos ganadas por Maquina:<span id="manosMaquina"></span></p>
+				<p>manos jugadas:<span id="manosJugadas"></span></p>
+				<p>ganó mano:<span id="manoGanadora"></span></p>
+				<p>ganador final :<span id="ganadorFinal"></span></p>
+
+				</div>
+			
+			</div>
+		</div>
+
+
+				
+</body>
+</html>
+
+
+				
+</body>
+</html>

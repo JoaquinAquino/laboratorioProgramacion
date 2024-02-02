@@ -1,0 +1,34 @@
+#idFormulario {
+	width:600px;
+	margin: auto;
+	display:flex;
+	flex-direction: column;
+	border: 2px black solid;
+}
+.fila{
+	width:99.5%;
+	display:flex;
+}
+.columna{
+	width:40%;
+	display: flex;
+	align-items: center;
+}
+#filaBoton{
+	width:99.5%;
+	height:48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+#botonId{
+	width:200px;
+	 text-align: center;
+
+}
+
+#contenedorPrincipal{
+	border: 1px black solid;
+	height:400px;
+}

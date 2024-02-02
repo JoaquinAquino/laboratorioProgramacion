@@ -1,0 +1,37 @@
+
+body{
+	background:grey;
+}
+.fila{
+	width:500px;
+	display:flex;
+
+}
+.columna{
+	width:40%;
+	display: flex;
+	align-items: center;
+}
+#filaBoton{
+	
+	width:300px;
+	height:48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+th,table,td,tr{
+ border:1px solid black;
+ border-collapse: collapse;
+}
+
+#idBoton{
+	width:100%;
+}
+.sinEspacio{
+	margin-left:90px;
+}
+h1,h2{
+	text-align:center;
+}

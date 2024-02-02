@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:gray;
+
+}
+
+.grupo {
+  display: flex;
+  flex-direction: column;
+}
+
+.grupo div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  
+}
+#idformu1 , #idformu{
+	  border: 3px solid #ccc;
+      border-radius: 5px;
+	  padding:20px;
+	  background-color:#008080;
+}
+.boton{
+	margin-top:5px;
+	margin:0 auto;
+	width:100px;
+	background-color:#00FFFF;
+}
+
+
+

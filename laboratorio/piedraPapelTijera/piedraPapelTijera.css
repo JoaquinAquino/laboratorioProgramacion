@@ -1,0 +1,78 @@
+body{
+	background:#D6EAF8;
+}
+#contenedorPrincipal{
+	width:550px;
+	height:500px;
+	margin: auto;
+}
+h1{
+	text-align:center;
+}
+p{
+	font-family:Arial;
+	 font-weight:bold;
+	 font-size:14px;
+}
+
+span{
+	color:blue;
+	margin-left:0.2em
+	
+}
+#idPiedra{
+	color:#AF601A;
+}
+#idTijera{
+	color:#CD6155;
+}
+#idHoja{
+	color:#52BE80;
+}
+#contenedorJugador{
+	height:100%;
+	width:49%;
+	border:blue 1px solid;
+	float:left;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	background-color:#EB984E;
+	border:black 3px solid;
+
+}
+#contenedorDer{
+	height:100%;
+	width:49%;
+	border:black 1px solid;
+	float:left;
+}
+#contenedorComputadora{
+	width:100%;
+	border:green 1px solid;
+	height:50%;
+	background-color:#82E0AA;
+	border-right:black 3px solid;
+	border-top:black 3px solid;
+	border-bottom:black 2px solid;
+
+
+}
+#contenedorResultado{
+	width:100%;
+	border:green 1px solid;
+	height:49%;
+	background-color:#85C1E9;
+	border-right:black 3px solid;
+	border-bottom:black 3px solid;
+
+}
+#idjugar,.palabra1,#idEleccion,#idVolverAjugar{
+	display:inline;
+}
+#contenedorParteArriba,#contenedorParteMedia,#contenedorParteAbajo{
+	margin
+}
+.boton{
+	background-color:#99A3A4;
+}
